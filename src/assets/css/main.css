@@ -1,0 +1,104 @@
+/* fallback */
+@font-face {
+    font-family: 'Material Symbols Outlined';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/mat_ui_.woff2') format('woff2');
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a{
+    cursor: pointer;
+}
+
+.border-check * {
+    border: 1px solid red;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.bg-offwhite{
+    background-color: #f1f1f1;
+}
+
+.bg-offblack{
+    background-color: #111111;
+}
+
+
+/* Tabs */
+.project-tab {
+    padding: 10%;
+    margin-top: -8%;
+}
+
+.project-tab #tabs {
+    background: #007b5e;
+    color: #eee;
+}
+
+.project-tab #tabs h6.section-title {
+    color: #eee;
+}
+
+.project-tab #tabs .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #0062cc;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 3px solid !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.project-tab .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #0062cc;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.project-tab .nav-link:hover {
+    border: none;
+}
+
+.project-tab thead {
+    background: #f3f3f3;
+    color: #333;
+}
+
+.project-tab a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+
+
+
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: ">";
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    color: #6c757d;
+}
+
